@@ -1,3 +1,4 @@
+//Ripple Animation Function
 var rippleAnim = anime({
     targets: 'div.ripple',
 
@@ -24,4 +25,5 @@ var rippleAnim = anime({
     autoplay: false,
 });
 
+//Calls the ripple aniamtion when the button is pressed
 document.querySelector(' #ripples .restart').onclick = rippleAnim.restart;
