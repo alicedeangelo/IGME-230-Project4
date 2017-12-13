@@ -1,0 +1,87 @@
+body {
+    background-color: darkblue;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+}
+
+.ripple {
+    fill: none;
+    border-radius: 50%;
+    border: 2px solid darkblue;
+    background-color: none;  
+}
+
+.one {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.two {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.three {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.four {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#button {
+    width: 110px;
+    height: 20px;
+    position: relative;
+    margin: auto;
+    top: 500px;
+}
+
+.restart {
+    background-color: white;
+    color: darkblue;
+    border-radius: 5px;
+    border: 3px solid white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16pt;
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.restart:hover{
+    background-color: skyblue;
+    color: white;
+    border: 3px solid white;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
