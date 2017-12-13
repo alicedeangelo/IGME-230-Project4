@@ -1,0 +1,113 @@
+body{
+    background-color: #3CB371;
+    font-family: 'Actor', sans-serif;
+}
+
+.pane{
+    fill: #2fcbff;
+    border: 5px solid #8B4513;
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    z-index: -1;
+}
+
+.one{
+    top: 300px;
+    right: 0;
+    bottom: 0;
+    left: 527px;
+}
+
+.two{
+    top: 97px;
+    right: 0;
+    bottom: 0;
+    left: 527px;
+}
+
+.three{
+    top: 97px;
+    right: 0;
+    bottom: 0;
+    left: 780px;
+}
+
+.four{
+    top: 300px;
+    right: 0;
+    bottom: 0;
+    left: 780px;
+}
+
+#controls{
+    margin-left: 20pt;
+}
+
+.restart{
+    width: 150px;
+    height: 40px;
+    margin: 20px;
+    margin-left: 50pt;
+    font-size: 14pt;
+}
+
+#sun{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #FFFF5F;
+    position: absolute;
+    right: 0;
+    bottom: 75px;
+    left: 120px;
+}
+
+.cloud{
+    position: absolute;
+    top: 155px;
+    right: 550px;
+}
+
+.cloud-square{
+    width: 120px;
+    height: 80px; 
+    position: absolute;
+    right: 0;
+    bottom: 75px;
+    left: 120px;
+    background-color: #ffffff;
+}
+
+.cloud-circle-one{
+    width: 100px;
+    height: 100px; 
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 55px;
+    left: 70px;
+    background-color: #ffffff;
+}
+
+.cloud-circle-two{
+    width: 100px;
+    height: 100px; 
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+    left: 120px;
+    background-color: #ffffff;
+}
+
+.cloud-circle-three{
+    width: 100px;
+    height: 100px; 
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 55px;
+    left: 190px;
+    background-color: #ffffff;
+}
