@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html id="index-html" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <title>Project 4</title>
+</head>
+<body id="html-body">
+    <header id = "header-id">
+            <button type="button" onclick="location.href='index.html';">HOME</button>
+            <button type="button" onclick="location.href='http://facebook.com';">PROJECT 1</button>
+            <button type="button" onclick="location.href='http://youtube.com';">PROJECT 2</button>
+            <button type="button" onclick="location.href='http://google.com';">PROJECT 3</button>
+            
+            
+        <h1>Project 4 : Javascript Interaction</h1>
+    </header>
+    <div class="holygrail-body">
+       
+        <!---Middle -->
+        <div id="contentdoc">
+            <h2>Documentation</h2>
+            <p>Brooke did some shit. She'll talk about her sources and such here.</p>
+               <br>
+
+            <p>Kailin did some shit. She'll talk about it here at some point.</p>
+            <br>
+
+    </div>
+    <footer>
+            <p> &copy2017 Kailin Berg & Brooke Daniels </p>    </footer>
+    
+    <script>
+        function changeColor(){
+            if(document.getElementById("header-id").style.background == "pink"){
+                document.getElementById("header-id").style.background = "skyblue";
+            }
+            else{
+                document.getElementById("header-id").style.background = "pink";
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+
+
+
+<!DOCTYPE html>
+<html id="index-html" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <title>Project 4</title>
+</head>
+<body id="html-body">
+    <header id = "header-id">
+            <button type="button" onclick="location.href='http://facebook.com';">PROJECT 1</button>
+            <button type="button" onclick="location.href='http://youtube.com';">PROJECT 2</button>
+            <button type="button" onclick="location.href='http://google.com';">PROJECT 3</button>
+            <button type="button" onclick="location.href='doc.html';">DOCUMENTATION</button>
+            
+        <h1>Project 4 : Javascript Interaction</h1>
+    </header>
+    <div class="holygrail-body">
+       
+        <!---Middle -->
+        <div id="content">
+            <h2 id= "h2c">Gallery</h2>
+            <p>Our concept is that of a relaxation kit. We thought of things that can be considered relaxing, and came up with three applications:<br>
+               a ripple simulator, a zen garden simulator, and a weather simulator.</p>
+
+            <p>The ripple simulator replicates ripples in a pond. By clicking a button, the user can cause the screen to have a ripple effect.</p>
+       
+               
+                   
+                        <div class="gallery">
+                          <a target="_blank" href="http://facebook.com">
+                              <div class="container">
+                                  <img src="green.jpg" alt="Ripple Project" width="300" height="200" class= "image">
+                                  <div class="overlay">
+                                    <div class="text">Ripple</div>
+                                  </div>
+                                </div>
+                          </a>
+                         
+                        </div>
+                      
+                        <div class="gallery">
+                          <a target="_blank" href="http://facebook.com">
+                              <div class="container">
+                                  <img src="green.jpg" alt="Zen Garden Project" width="300" height="200" class= "image">
+                                  <div class="overlay">
+                                    <div class="text">Zen</div>
+                                  </div>
+                                </div>
+                          </a>
+                         
+                        </div>
+                    
+                        <div class="gallery">
+                          <a target="_blank" href="http://facebook.com">
+                              <div class="container">
+                                  <img src="green.jpg" alt="Weather Project" width="300" height="200" class= "image">
+                                  <div class="overlay">
+                                    <div class="text">Weather</div>
+                                  </div>
+                                </div>
+                          </a>
+                         
+                        </div>
+                      
+                      <p class="clear"></p>
+            <button type="button" onclick="changeColor()">Change Color</button>
+            <br>
+        </div>
+
+ <!---Left-->
+ <div id="nav">
+        <h2 id= "h2c2">Responsibilities</h2>
+        <p> Kailin worked primarily on our website, designing and implementing all aspects of it. The color, a light green, was chosen because of it's <br>
+            psychological relation to tranquility and calmness. As we had chosen a zen/relaxation theme, she though this would fit well with the vision of our theme. <br>
+            She also created the Zen application, which simulates a zen garden. In this app, the user is able to draw in the sand to create various patterns. <br>
+            She also was in charge of desiging the sketches of the applications, which were later used as a reference when programming started. <br>
+        </p>
+        <br>
+        <br>
+        <p> Brooke worked primarily on our applications, programming both the Ripple and Weather applications. In the ripple application, the user presses a button to<br>
+            simulate ripples in the water. In the weather application, the user can choose from different types of weather they can observe through a window. She also helped<br>
+            with brainstorming and conceptualizing all three of our applications. She implemented BLAH BLAH YOUR LIBRARIES AND SHIT HERE BROOKE IDK WHAT THEY ARE TALK BOUT IT.</p>
+        <p class= "ending"></p>
+    </div>
+
+    </div>
+    <footer>
+        <p> &copy2017 Kailin Berg & Brooke Daniels </p>    </footer>
+    
+        <script>
+            var g = "#242424";
+            var w = "#ffffff";
+                function changeColor(){
+                    if(document.getElementById("nav").style.background == "black"){
+                        document.getElementById("nav").style.background = "white";
+                    }
+                    else{
+                        document.getElementById("nav").style.background = "black";
+                    }
+
+                    if(document.getElementById("content").style.background == "black"){
+                        document.getElementById("content").style.background = "white";
+                    }
+                    else{
+                        document.getElementById("content").style.background = "black";
+                    }
+
+                    if(document.getElementById("h2c").style.color == "white"){
+                        document.getElementById("h2c").style.color = "black";
+                    }
+                    else{
+                        document.getElementById("h2c").style.color = "white";
+                    }
+
+                    if(document.getElementById("h2c2").style.color == "white"){
+                        document.getElementById("h2c2").style.color = "black";
+                    }
+                    else{
+                        document.getElementById("h2c2").style.color = "white";
+                    }
+                }
+            </script>
+        
+</body>
+</html>
