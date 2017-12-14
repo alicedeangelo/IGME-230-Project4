@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html, body{
+    overflow: hidden;
+}
+
+body{
+    background-color: #EAE2D5;
+    z-index: -1;
+}
+
+#garden{
+    
+    width: 100%;
+    height: 100%;
+}
+
+.rock{
+    width: 150px;
+    height: 110px;
+    background-color: #a6a7a8;
+    border-radius: 50%;
+    border: 2.7px solid #808487;
+    position: absolute;
+    top: 175px;
+    left: 140px;
+}
+
+.pebble{
+    width: 80px;
+    height: 60px;
+    background-color: #5a3810;
+    border-radius: 50%;
+    border: 2.7px solid #4b3316;
+    position: absolute;
+    top: 375px;
+    left: 740px;
+}
+
+
+p {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Raleway', verdana;
+    color:  #5a3810;
+
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Raleway', verdana;
+    color:  #5a3810;
+
+}
